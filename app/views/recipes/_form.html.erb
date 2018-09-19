@@ -2,7 +2,16 @@
   Title: <%= f.text_field :title %>
   
   <%= f.fields_for :ingredients do |ing| %>
+<<<<<<< HEAD
 
+=======
+    <%= ing.label :ingredients_1 %>
+    <%= ing.text_field :ingredients_1 %><br>
+ 
+    <%= ing.label :ingredients_2 %>
+    <%= ing.text_field :ingredients_2 %><br>
+ 
+>>>>>>> 1d3f25e1474baf8b367567d15b04c7a542d25cb7
     <%= ing.label :name %>
     <%= ing.text_field :name %><br>
  
@@ -10,5 +19,8 @@
     <%= ing.text_field :quantity %><br>
  
   <% end %>
+<<<<<<< HEAD
   <%= f.submit %>
+=======
+>>>>>>> 1d3f25e1474baf8b367567d15b04c7a542d25cb7
 <% end %>
